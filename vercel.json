@@ -1,15 +1,1 @@
-{
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "https://sda-invite-2026.vercel.app/",
-      "permanent": false
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "no-store" }]
-    }
-  ]
-}
+{"rewrites":[{"source":"/(.*)","destination":"https://sda-invite-2026.vercel.app/$1"}],"headers":[{"source":"/(.*)","headers":[{"key":"Cache-Control","value":"no-store"}]}]}
